@@ -18,7 +18,7 @@ const Home: React.FC = () => {
 
       history.push('/quiz');
     } catch (err) {
-      console.error(err);
+      console.error(err); // eslint-disable-line no-console
     }
   }, [difficulty, getQuiz, history]);
 
